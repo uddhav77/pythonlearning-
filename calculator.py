@@ -5,14 +5,15 @@ num2 = float(input("Enter second number: "))
 
 if operator == "+" :
     sum = num1 + num2
-    print(f"The sum is {sum}")
+    print(f"The sum is {round(sum, 3)}")
 elif operator == "-" :
     diff = num1 - num2
-    print(f"The diff is {diff}")
+    print(f"The diff is {round(diff, 3)}")
 elif operator == "*" :
     product = num1 * num2
-    print(f"The product is {product}")
+    print(f"The product is {round(product, 3)}")
 elif operator == "/" :
     div = num1 / num2
-    print(f"The division is {div}")
+    print(f"The division is {round(div, 3)}")
+
     
