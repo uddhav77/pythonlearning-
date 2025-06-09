@@ -15,5 +15,7 @@ elif operator == "*" :
 elif operator == "/" :
     div = num1 / num2
     print(f"The division is {round(div, 3)}")
+else:
+    print("Please enter a valid operation.")
 
     
